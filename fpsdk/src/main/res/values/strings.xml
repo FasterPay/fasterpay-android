@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FasterPaySDK</string>
+    <string name="title_activity_faster_pay">FasterPayActivity</string>
+</resources>
