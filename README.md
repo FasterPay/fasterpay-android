@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
             .merchantOrderId(UUID.randomUUID().toString())
             .successUrl("<your definition url>")
 
-        startActivity(gateWay.prepareCheckout(this, form))
+        startActivity(fasterPay.prepareCheckout(this, form))
     }
 }
 ```
